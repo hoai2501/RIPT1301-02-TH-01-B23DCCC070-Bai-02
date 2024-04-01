@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            background-image: url('data:image/jpeg;base64,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');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .login-container {
+            background-color: #edede8;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            border-radius: 40px;    
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .login-input {
+            margin-bottom: 10px;
+        }
+        
+        .login-button {
+            background-color: #494947;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-title {
+            color:#494947;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1 class="login-title">Login</h1>
+        <span>Tài khoản:</span>
+        <input type="text" id="tk" class="login-input"><br>
+        <span>Mật khẩu:</span>
+        <input type="password" id="mk" class="login-input"><br>
+        <button class="login-button" onclick="login()">Đăng nhập</button> 
+    </div>
+
+    <script>
+        function login(){
+            var tkz = document.getElementById("tk").value;
+            var mkz = document.getElementById("mk").value;
+            if (tkz == "admin" && mkz == "admin"){
+                window.open("thongtin.html");
+            } else { 
+                alert('Tài khoản và mật khẩu không chính xác');
+            }
+        }
+    </script>
+</body>
+</html>
